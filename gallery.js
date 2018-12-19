@@ -10,5 +10,9 @@ for (let i=1; i<=5; i++) {
   newImage.setAttribute('src', './images/pic'+ i +'.jpg');
   thumbBar.appendChild(newImage);
 }
+
+function displayImg(source){
+	displayedImage.setAttribute('src',source);
+}
 /* Wiring up the Darken/Lighten button */
 
